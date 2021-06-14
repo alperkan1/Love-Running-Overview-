@@ -1,11 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
-* { margin: 0;
-padding: 0;
-border: none;
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
 body {
     font-family: Roboto, sans-serif;
-    font-weight: 300
+    font-weight: 300;
+    color: #7a6060;
 }
+
+/*headings and logo*/
+h1,
+h2 {
+    font-family: Open+Sans, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525
+}
+#logo{float:left;
+font-size: 280%;}
