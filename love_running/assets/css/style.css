@@ -56,33 +56,36 @@ h2 {
     border-bottom: 1px solid #3a4a4a;
 }
 
-/*hero iamge*/
+/*hero image*/
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
 #hero-image {
     height: 600px;
     width: 100%;
     background: url("/love_running/assets/images/hero-image.webp") no-repeat center center;
-/*css animates zoom effect on loading page*/
+    /*css animates zoom effect on loading page*/
 
-animation-name: hero-zoom;
-animation-duration: 5s;
-animation-fill-mode: forwards;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 
 }
 
-#hero-outer {
-    height: 600px;
-    width: 100%;
-    overflow:hidden;
-}
 
 
 /**Css Animation**/
-@keyframes hero-zoom{
-    from{ 
+@keyframes hero-zoom {
+    from {
         transform: scale(1);
 
     }
-    to{ transform:scale(1.1) ;
+
+    to {
+        transform: scale(1.1);
 
     }
 }
