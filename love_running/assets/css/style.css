@@ -243,3 +243,9 @@ footer {height: 150px;}
     padding: 60px 50px 40px 50px;
 
 }
+
+/*gallery*/
+
+#photos {
+   clear: both; 
+}
