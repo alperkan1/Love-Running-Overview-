@@ -136,7 +136,7 @@ h2 {
 #center-about {
     width: 33%;
     margin: 0 auto;
-
+   
 
 }
 
@@ -263,6 +263,8 @@ footer {
 /*media queiries */
 
 @media screen and (max-width: 1200px) {
+    
+
     #club-ethos {
         width: 65%;
         height: 1200px;
@@ -270,11 +272,11 @@ footer {
     }
 
     #welcome {
-        padding: 30px 0;
+        padding:30px 0;
         margin: 0;
     }
 
-    #left-about, #right-about {
+    #right-about, #left-about {
         width: 100%;
         float: left;
         padding: 0;
@@ -282,12 +284,10 @@ footer {
 
     #center-about {
         clear: both;
-        width: 100%;
+        width: 20%;
         float: left;
         padding: 0;
     }
 
-    hr {
-        display: none;
-    }
+   
 }
