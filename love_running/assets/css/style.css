@@ -210,17 +210,17 @@ hr {
     width: 20%;
     height: 300px;
     float: left;
-    padding: 30px 0 0 10px;
+    padding: 100px 0 0 10px;
     border: 2px solid white;
     text-align: center;
     box-sizing: border-box;
+    ;
 
 }
 
 #times h2 {
     color: #fafafa;
-    padding-top: 50px;
-    padding-bottom: 20px;
+    
 }
 
 /*footer*/
@@ -290,9 +290,18 @@ footer {
         padding: 0;
     }
 
+    #times>div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
     hr {
         display: none;
     }
+
+
 
     /*for edia screens fro 950px wide and down*/
 
@@ -317,18 +326,26 @@ footer {
             height: 1200px;
             margin: 0 auto;
         }
-        .left-about-heading, .right-about-heading {
-            width:inherit;
+
+        .left-about-heading,
+        .right-about-heading {
+            width: inherit;
 
         }
-        .left-about-heading h2, .right-about-heading h2 {
-            width:100%;
+
+        .left-about-heading h2,
+        .right-about-heading h2 {
+            width: 100%;
             text-align: center;
         }
-        .left-about-heading p, .right-about-heading p {
+
+        .left-about-heading p,
+        .right-about-heading p {
             text-align: center;
-            padding:0 20px ;
-        } 
+            padding: 0 20px;
+        }
     }
+
+
 
 }
