@@ -354,4 +354,8 @@ footer {
         columns: 2;
     }
 }
+.form-section > div {
+    border: 1px black solid;
+}
+    
 }
